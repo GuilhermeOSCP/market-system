@@ -14,7 +14,7 @@ PT-BR: Quando o projeto for baixado e você importar o mesmo em sua IDE (Eu util
 </div>
 
 <div>  
-EN-US: When the project is downloaded and you import it into your IDE (I use Eclipse), wait a moment because the dependencies will be automatically downloaded through Maven, they are found in the "pom.xml" file in the main project folder if you want to check them out.
+<br>EN-US: When the project is downloaded and you import it into your IDE (I use Eclipse), wait a moment because the dependencies will be automatically downloaded through Maven, they are found in the "pom.xml" file in the main project folder if you want to check them out.
 <br> After the dependencies are downloaded, you will need to install PostgreSQL on your computer for the software to run correctly. Having postgree installed, go to the "src/main/resources" folder and look for the "application-dev.properties" file, it contains the database connection settings, change it according to what you have configured in your PostgreSQL, remembering that the first line of the file contains "spring.datasource.url=jdbc:postgresql://localhost:5432/springboot_course" and the end "springboot_course" is the name of the database I gave in my PostgreSQL, substitute for database name for the one you created in your database, the insertion of data and table are done automatically, I will explain below.
 <br> Once the software is connected to your PostgreSQL database, the software can be started. The first initialization will take a while, as PostgreSQL will instantiate the tables and the data contained in them and the tables are located in the directory "src/main/java/com/example/marketsystem/entities/" and the data from tables are in the "src/main/java/com/example/marketsystem/config/" folder.
 </div>

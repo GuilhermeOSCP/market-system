@@ -2,9 +2,9 @@
 
 ### Introdução | Introduction:
 
-PT-BR: 
+PT-BR: Este projeto consiste em um software Web service destinado a sistemas de e-comerce baseado em Java, Spring Boot, JPA, Hibernate e PostgreSQL. A aplicação fornece uma visão holistica dos produtos e categorias do mesmo, usuários do sistema e os seus pedidos como também o pagamento e o status do pedido, todos eles podendo ser consutados através do banco de dados PostgreSQL.
 
-EN-US: 
+EN-US: This project consists of a Web service software for e-commerce systems based on Java, Spring Boot, JPA, Hibernate and PostgreSQL. The application provides a holistic view of products and system categories, system users and their orders as well as payment and order status, all of which can be queried through the PostgreSQL database.
 
 ### Instruções Para Inicialização do Software | Software Startup Instructions:
 
